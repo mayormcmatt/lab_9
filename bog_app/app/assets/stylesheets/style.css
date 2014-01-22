@@ -1,0 +1,47 @@
+.container h1 {
+	text-align: center;
+}
+
+.container h2 {
+	text-align: center;
+}
+
+a:link, a:visited, a:hover, a:active {
+	text-decoration: none;
+	color: black;
+}
+
+.nav.navbar-nav {
+	position: center;
+	text-align: center;
+	font-size: 1.5em;
+	width: 100%;
+}
+
+.navbar-nav a {
+	color: white;
+}
+
+.navbar-nav a:hover {
+	color: #192823;
+}
+
+.new {
+	width: 25%;
+	background-color: #DD1E2F;
+}
+
+.view {
+	width: 25%;
+	background-color: #EBB035;
+}
+
+.screen {
+	width: 25%;
+	background-color: #06A2CB;
+}
+
+.fandango {
+	width: 25%;
+	background-color: #218559;
+}

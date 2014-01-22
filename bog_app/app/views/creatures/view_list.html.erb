@@ -1,0 +1,8 @@
+<h2>Here's a List of Creatures Catalogued Thus Far</h2>
+
+<% @creatures.each do |creature| %>
+	<div>
+		Name: <%= creature[:name] %><br>
+		Description <%= creature[:description] %><br>
+	</div><br>
+<% end %>
